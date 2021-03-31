@@ -12,6 +12,7 @@ public class Position {
 	public int getRow() {
 		return row;
 	}
+
 	public void setRow(int row) {
 		this.row = row;
 	}
@@ -19,12 +20,13 @@ public class Position {
 	public int getColum() {
 		return colum;
 	}
+
 	public void setColum(int colum) {
 		this.colum = colum;
 	}
 
 	@Override
 	public String toString() {
-		return row +","+ colum;
+		return row + "," + colum;
 	}
 }
